@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="50dp"
+    android:id="@+id/Ln_bottomFunction"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:src="@drawable/item_home"
+        android:layout_weight="1"
+        android:id="@+id/bt_home"
+        app:tint="@color/Mint05" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:src="@drawable/item_search"
+        android:layout_weight="1"
+        android:id="@+id/bt_search"
+        app:tint="@color/Mint05" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:padding="6dp"
+        android:src="@drawable/item_noti"
+        android:layout_weight="1"
+        android:id="@+id/bt_noti"
+        app:tint="@color/Mint05" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:padding="6dp"
+        android:src="@drawable/item_game"
+        android:layout_weight="1"
+        android:id="@+id/bt_game"
+        app:tint="@color/Mint05" />
+        <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/item_aboutyou"
+        android:layout_weight="1"
+            android:padding="6dp"
+        android:id="@+id/bt_aboutyou"
+        app:tint="@color/Mint05" />
+
+</LinearLayout>

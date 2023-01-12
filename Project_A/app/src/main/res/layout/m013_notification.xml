@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="chưa có thông báo nào"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

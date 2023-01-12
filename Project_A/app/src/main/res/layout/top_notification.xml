@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:background="@color/Mint05"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:textColor="@color/white"
+        android:text="Hiển thị thông báo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

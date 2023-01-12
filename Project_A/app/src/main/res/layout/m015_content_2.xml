@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Số tài khoản của bạn"
+            android:layout_height="match_parent"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:text="2302310931"
+            android:textSize="20dp"
+            android:paddingStart="10dp"
+            android:id="@+id/tv_MyID"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="So du tai khoan:"
+            android:layout_height="match_parent"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:text="2302310931"
+            android:textSize="20dp"
+            android:id="@+id/tv_myAmount"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="dong"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"/>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

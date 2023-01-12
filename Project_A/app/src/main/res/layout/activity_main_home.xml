@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/ln_TopBar"
+    android:layout_height="50dp">
+    <include layout="@layout/top_bar"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/layout_LnShowIn4"
+        android:layout_height="match_parent">
+
+
+
+
+
+    </LinearLayout>
+    <include
+        android:layout_gravity="bottom"
+        android:id="@+id/layout_bottomFn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/bottom_function"/>
+
+
+
+
+</FrameLayout>

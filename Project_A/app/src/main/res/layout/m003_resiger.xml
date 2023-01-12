@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:text="Username: "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="username"
+        android:textSize="18dp"
+        android:background="@drawable/broder_6black"
+        android:paddingStart="30dp"
+        android:id="@+id/edt_un"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Password: "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="password"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:id="@+id/edt_pw"
+        android:background="@drawable/broder_6black"
+        android:paddingStart="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Email: "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="email:"
+        android:textSize="18dp"
+        android:id="@+id/edt_email"
+        android:background="@drawable/broder_6black"
+        android:paddingStart="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Full name: "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="full name"
+        android:textSize="18dp"
+        android:id="@+id/edt_fullname"
+        android:background="@drawable/broder_6black"
+        android:paddingStart="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Your phone: "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="phone"
+        android:textSize="18dp"
+        android:id="@+id/edt_phone"
+        android:background="@drawable/broder_6black"
+        android:paddingStart="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Your identityNumber: "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="identityNumber"
+        android:textSize="18dp"
+        android:id="@+id/edt_identity"
+        android:background="@drawable/broder_6black"
+        android:paddingStart="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="45dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="40dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/bt_cancel"
+            android:backgroundTint="@color/gray"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Resiger"
+            android:backgroundTint="@color/Mint05"
+            android:id="@+id/bt_resiger"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

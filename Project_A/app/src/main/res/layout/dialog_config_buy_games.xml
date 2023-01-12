@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="120dp"
+    android:layout_width="350dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:src="@drawable/testpic02"
+        android:id="@+id/iv_imageConfig"
+        android:padding="7dp"
+        android:layout_height="120dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Genshin Impact - Xứ sở thần tiên"
+            android:textSize="15dp"
+            android:id="@+id/tv_cofigName"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"/>
+
+            <TableRow android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="25dp">
+
+                <TextView android:layout_height="match_parent"
+                    android:text="Giá game chỉ: "
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_width="90dp"/>
+
+                <TextView android:layout_width="match_parent"
+                    android:background="@drawable/broder_6mint05"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="@color/Mint05"
+                    android:text="20000 đồng"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_height="match_parent"/>
+
+            </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Game rẻ ácc, mua liền thôi đê!?"
+            android:textStyle="bold"
+            android:layout_height="25dp"/>
+
+        <TableRow android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="match_parent">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/gray"
+                android:textStyle="bold"
+                android:id="@+id/bt_cancelConfig"
+                android:layout_marginEnd="10dp"
+                android:text="Thui"/>
+            <Button
+                android:layout_width="0dp"
+                android:textSize="12dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/bt_config"
+                android:backgroundTint="@color/Mint05"
+                android:text="Quất"/>
+
+        </TableRow>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Thông tin người dùng:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:text="Email"
+                android:textSize="13dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:elevation="1dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="10dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="mhieusz.23.dkc@gmail.com"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:id="@+id/tv_m04_email"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"/>
+
+
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="12dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="So can cuoc"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:elevation="1dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="3232153123"
+                    android:paddingTop="4dp"
+                    android:textSize="18dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:paddingStart="20dp"
+                    android:id="@+id/tv_m04_identity"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="40dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="So dien thoai"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:elevation="1dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="0337254483"
+                    android:paddingTop="4dp"
+                    android:textSize="18dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:paddingStart="20dp"
+                    android:id="@+id/tv_m04_phone"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="40dp"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="22dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ten nguoi dung"
+                android:textSize="13dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:elevation="1dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Doan Minh Hieu"
+                android:paddingTop="4dp"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:id="@+id/tv_m04_fName"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="22dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="So tai khoan"
+                android:textSize="13dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:elevation="1dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="00032361132"
+                android:paddingTop="4dp"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:id="@+id/tv_m04_idTransfer"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="22dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Ten Dang nhap"
+                android:textSize="13dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:elevation="1dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="test000@2003"
+                android:paddingTop="4dp"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:id="@+id/tv_m04_userName"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Mat khau"
+                android:textSize="13dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:elevation="1dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="abc12345"
+                android:paddingTop="4dp"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:id="@+id/tv_m04_password"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

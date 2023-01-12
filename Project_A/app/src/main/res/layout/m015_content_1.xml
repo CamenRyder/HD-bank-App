@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border_5dp_mint06"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:fontFamily="sans-serif-light"
+            android:text="Chuyển khoản "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:paddingStart="30dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/item_next"
+            android:padding="5dp"
+            android:layout_height="match_parent"
+            app:tint="@color/Mint05" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Số thẻ/tài khoản"
+            android:textColor="@color/Mint05"
+            android:paddingHorizontal="10dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:elevation="0.01dp"
+            android:background="@drawable/background_white"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/border_5dp_mint06"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:hint="Nhập số thẻ/ tài khoản"
+                android:id="@+id/edt_stk"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/item_card"
+                android:padding="10dp"
+                android:layout_height="match_parent"
+                app:tint="@color/Mint05" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Số tiền chuyển"
+            android:textColor="@color/Mint05"
+            android:paddingHorizontal="10dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:elevation="0.01dp"
+            android:background="@drawable/background_white"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/border_5dp_mint06"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:hint="Nhập số tiền cần chuyển"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/edt_money"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:layout_height="match_parent"/>
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/item_transfer"
+                android:padding="10dp"
+                android:layout_height="match_parent"
+                app:tint="@color/Mint05" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="90dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Lời nhắn (0/70)"
+            android:textColor="@color/Mint05"
+            android:paddingHorizontal="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:elevation="0.01dp"
+            android:background="@drawable/background_white"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/border_5dp_mint06"
+            android:layout_marginTop="20dp"
+            android:layout_height="70dp">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:hint="Nhập lời nhắn của bạn "
+                android:textColor="@color/black"
+                android:id="@+id/edt_Desc"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:layout_height="match_parent"/>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Lưu thông tin người nhận"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="wrap_content"/>
+
+        <Switch
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Tên gợi nhớ"
+            android:textColor="@color/Mint05"
+            android:paddingHorizontal="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="sans-serif-light"
+            android:elevation="0.01dp"
+            android:background="@drawable/background_white"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/border_5dp_mint06"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:hint="Đặt tên gợi nhớ "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:textSize="15dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:text="Tiếp tục"
+        android:id="@+id/bt_continue"
+        android:backgroundTint="@color/Mint05"
+        android:layout_marginStart="240dp"
+        android:textStyle="bold"
+        android:layout_height="50dp"/>
+</LinearLayout>

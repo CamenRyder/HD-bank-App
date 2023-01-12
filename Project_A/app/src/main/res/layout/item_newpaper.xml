@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="120dp"
+    android:layout_width="match_parent"
+    android:layout_margin="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:padding="10dp"
+            android:id="@+id/iv_newpaper"
+            android:src="@drawable/testpic01"
+            android:layout_height="match_parent"/>
+        <LinearLayout android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:layout_height="match_parent">
+            <TextView android:layout_height="wrap_content"
+                android:text="Những tựa game huyền thoại từng rất được săn đón."
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:id="@+id/tv_title"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"/>
+            <TextView android:layout_height="45dp"
+                android:layout_marginTop="3dp"
+                android:text="Những tựa game từng được nhiều bạn trẻ săn đó nhưng bây giờ đã dần dần bị người chơi lãng quên vào dĩ vãng. Tại sao vậy?"
+                android:textSize="11dp"
+                android:paddingStart="5dp"
+                android:id="@+id/tv_content"
+                android:maxLines="3"
+                android:textColor="@color/gray"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingStart="10dp"
+                android:id="@+id/tv_date"
+                android:textColor="@color/blue"
+                android:text="Tâm Sự Gamer 03/12/2022"
+                android:textSize="11dp"
+                android:layout_height="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

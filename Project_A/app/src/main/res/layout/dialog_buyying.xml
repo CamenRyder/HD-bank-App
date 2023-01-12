@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="530dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@drawable/testpic02"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/dialog_picture"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="3dp"
+                android:id="@+id/tv_dialogTitle"
+                android:gravity="start"
+                android:text="Genshin Impact - Xứ sở thần tiên"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="miHoYo Limited"
+                android:textSize="14dp"
+                android:id="@+id/tv_dialogPulisher"
+                android:gravity="start"
+                android:textColor="@color/Mint05"
+                android:textStyle="bold"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tv_dialogOption"
+                android:text="Hành động, Nhập vai, Phiêu Lưu"
+                android:layout_marginTop="2dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="miễn phí"
+                android:gravity="center"
+                android:id="@+id/tv_dialogPrice"
+                android:layout_gravity="end"
+                android:background="@drawable/broder_pizce"
+                android:textStyle="bold"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:paddingHorizontal="40dp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingStart="20dp"
+        android:text="Hinh anh ve game"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="380dp"
+        android:paddingHorizontal="7dp"
+        android:id="@+id/vp_listPhotoGame"
+        android:layout_height="217dp">
+    </androidx.viewpager.widget.ViewPager>
+
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:text="Xếp hạng và đánh giá: "
+               android:textSize="16dp"
+               android:paddingStart="10dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:gravity="center_vertical"
+               android:layout_height="25dp"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_width="100dp"
+               android:orientation="vertical"
+               android:layout_marginStart="24dp"
+               android:layout_height="match_parent">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:text="4.1"
+                   android:layout_marginTop="10dp"
+                   android:textSize="40dp"
+                   android:gravity="center"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:layout_height="50dp"/>
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:src="@drawable/evaluate_star"
+                   android:layout_height="30dp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:text="  xem đánh giá"
+                   android:layout_height="match_parent"/>
+           </LinearLayout>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:src="@drawable/evaluate_chart"
+               android:paddingStart="40dp"
+               android:layout_height="match_parent"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

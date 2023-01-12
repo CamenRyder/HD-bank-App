@@ -1,0 +1,98 @@
+<androidx.cardview.widget.CardView
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/broder_6mint05"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:src="@drawable/testpic02"
+            android:padding="10dp"
+            android:id="@+id/iv_m004Picgames"
+            android:layout_height="100dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="Genshin Impact - Xứ sở thần tiên "
+                android:textSize="15dp"
+                android:id="@+id/iv_m004TitleGames"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="25dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Chưa cài"
+                    android:id="@+id/tv_price"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/Mint05"
+                    android:background="@drawable/broder_6mint05"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Hành động, Nhập vai, Phiêu Lưu"
+                    android:textSize="12dp"
+                    android:id="@+id/iv_m004Option"
+                    android:paddingStart="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:layout_height="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Nhà phát hành:"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:text="miHoYo Limited"
+                    android:id="@+id/iv_m004homeSource"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="3dp"
+                android:text="Ngày phát hành : 28 tháng 9, 2020"
+                android:textSize="11dp"
+                android:id="@+id/iv_m004release"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
